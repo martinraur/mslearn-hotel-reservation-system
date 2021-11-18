@@ -13,6 +13,7 @@ namespace HotelReservationSystem.Controllers
     {
         // GET: api/Reservations
         [HttpGet]
+       
         public IEnumerable<string> Get()
         {
             return new string[] {  };
